@@ -1,7 +1,6 @@
 # Personal Finance Tracker
 
-A Python program for tracking personal finance transactions. It allows users to add, view, update, delete transactions, add transactions in bulk from a CSV file and display a summary of all transactions. This version is the GUI implementation of my application. For the CLI implementation
-visit [](thislink)
+A Python program for tracking personal finance transactions. It allows users to add, view, update, delete transactions, add transactions in bulk from a CSV file and display a summary of all transactions. This version is the GUI implementation of my application. For the CLI implementation visit [finance-tracker](https://github.com/SSSAccount/finance-tracker)
 
 
 ## Features
@@ -39,7 +38,7 @@ Ensure "gui.py", "finance_tracker.py", "helper.py", "financials.json" and "bulk.
 python gui.py
 ```
 
- before using the following features:
+in the terminal before using the following features:
 
 1. **Adding Transactions**:
    - Select the add tab from the gui application.
