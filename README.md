@@ -122,4 +122,4 @@ as an ID of 1 in "Groceries" but there can only be one instance of an ID of 1 in
 
 [schema](https://github.com/keleshev/schema) - For checking the schema of bulk.csv
 
-[ttkbootstrap](https://github.com/israel-dryer/ttkbootstrap) - For creating the table of the gui
+[ttkbootstrap](https://github.com/israel-dryer/ttkbootstrap) - For creating the table of the gui and for the 'superhero theme'
