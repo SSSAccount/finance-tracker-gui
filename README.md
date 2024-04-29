@@ -6,7 +6,7 @@ A Python program for tracking personal finance transactions. It allows users to 
 ## Features
 
 - Add a new transaction
-- View transactions with a search and sort feature
+- View transactions (with a search and sort feature using a GUI)
 - Add transactions in bulk from a CSV file
 - Update existing transactions
 - Delete a specific transaction
@@ -46,16 +46,27 @@ python finance_tracker.py
 in the terminal before using the following features:
 
 1. **Adding Transactions**:
-   - Select the add tab from the gui application.
-   - Enter the following data and select the following options presented in the tab.
-   - Press the "Add Transaction" Button after entering all the necessary data.
+   - GUI:
+      - Select the add tab from the gui application.
+      - Enter the following data and select the following options presented in the tab.
+      - Press the "Add Transaction" Button after entering all the necessary data.
+   - CLI:
+      - Choose option 1 from the main menu.
+      - Follow the prompts to enter the transaction details such as category, amount, date and choice
+      - Confirm the transaction to add it to the records.
 
 2. **Viewing Transactions**:
-   - Select the view tab from the gui application.
-   - To search type your search query inside of the search box.
-   - To sort click on a column header to sort the data.
-
-3. **Adding Bulk Transactions**:
+   - GUI:
+      - Select the view tab from the gui application.
+      - To search type your search query inside of the search box.
+      - To sort click on a column header to sort the data.
+   - CLI:
+      - Select option 2 from the main menu.
+      - Choose a category to view transactions for that specific category.
+      - To view all transactions, choose the "All" option.
+      - Follow on-screen instructions to navigate through transactions.
+     
+4. **Adding Bulk Transactions**:
    - Make a copy of the bulk.csv to avoid any data loss as the program empties the file after adding the transactions (Optional)
    - The bulk.csv file should look something like this:
       
@@ -65,28 +76,48 @@ in the terminal before using the following features:
         Salary,500,2024-02-29\
         Other, 300, 2024-02-29, Income 
 
-   - Select the add tab from the gui application.
-   - Press the "Add Bulk" button.
+   - GUI:
+      - Select the add tab from the gui application.
+      - Press the "Add Bulk" button.
+   - CLI:
+      - Choose option 3 from the main menu.
+      - Transactions will be added automatically from the file.
 
-4. **Updating Transactions**:
-   - Select the update tab from the gui application
-   - Enter the necessary data presented on the tab
-   - Click on the "Update Transaction" Button
+5. **Updating Transactions**:
+   - GUI:
+      - Select the update tab from the gui application
+      - Enter the necessary data presented on the tab
+      - Click on the "Update Transaction" Button
+   - CLI:
+      - Select option 4 from the main menu.
+      - Follow the prompts to select the transaction to update which asks you for the ID of the transaction and the category of the transaction
+      - Choose the aspect of the transaction to update (category, amount, date, choice).
+      - Confirm the changes to update the transaction.
 
-5. **Deleting Transactions**:
-   - Select the delete tab from the gui application
-   - Enter the necessary data presented on the tab
-   - Click on the "Delete Transaction" Button
+7. **Deleting Transactions**:
+   - GUI:
+      - Select the delete tab from the gui application
+      - Enter the necessary data presented on the tab
+      - Click on the "Delete Transaction" Button
+   - CLI:
+      - Choose option 5 from the main menu.
+      - Follow the prompts to select the transaction to delete.
+      - Confirm deletion to remove the transaction.
 
-6. **Displaying Summary**:
-   - Select the summary tab from the gui application
-   - A summary of all transactions will be displayed, including net profit/loss, overall financial status, and the category with the most income and expense contributions.
+9. **Displaying Summary**:
+   - GUI:
+      - Select the summary tab from the gui application
+      - A summary of all transactions will be displayed, including net profit/loss, overall financial status, and the category with the most income and expense contributions.
+   - CLI:
+      - Select option 6 from the main menu.
+      - A summary of all transactions will be displayed, including net profit/loss, overall financial status, and the category with the most income and expense contributions.   
 
-7. **Gui Mode** (Only available in CLI):
+
+11. **Gui Mode** (Only available in CLI):
    - Select option 7 from the menu
    - To exit click on the "X" button in the top right corner to return to the main menu in the CLI
 
-8. **Exit**:
+11. **Exit**:
    - If you are using the CLI version of the app, then enter 8 in the main menu
    - If you are using the GUI, then click on the "X" button in the top right corner 
 
