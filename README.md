@@ -22,13 +22,13 @@ https://github.com/SSSAccount/finance-tracker-gui/assets/115540526/fc744798-91bd
 
 ## Installation
 
-Ensure you are in the same directory as the requirements.txt file. Execute the following in the terminal.
+Download requirements.txt and ensure you are in the same directory as the requirements.txt file. Execute the following in the terminal.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Download requirements.txt and ensure you have also downloaded "gui.py", "finance_tracker.py", "helper.py", "financials.json" and create a new file called
+Ensure you have also downloaded "gui.py", "finance_tracker.py", "helper.py", "financials.json" and create a new file called
 "bulk.csv" in the same directory
 
 ## Usage/Examples
