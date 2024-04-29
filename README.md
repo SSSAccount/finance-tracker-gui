@@ -38,6 +38,11 @@ Ensure "gui.py", "finance_tracker.py", "helper.py", "financials.json" and "bulk.
 python gui.py
 ```
 
+or if you want to access the GUI while using the CLI version of the application then run the following and enter option 7
+```bash
+python finance_tracker.py
+```
+
 in the terminal before using the following features:
 
 1. **Adding Transactions**:
@@ -77,6 +82,13 @@ in the terminal before using the following features:
    - Select the summary tab from the gui application
    - A summary of all transactions will be displayed, including net profit/loss, overall financial status, and the category with the most income and expense contributions.
 
+7. **Gui Mode** (Only available in CLI):
+   - Select option 7 from the menu
+   - To exit click on the "X" button in the top right corner to return to the main menu in the CLI
+
+8. **Exit**:
+   - If you are using the CLI version of the app, then enter 8 in the main menu
+   - If you are using the GUI, then click on the "X" button in the top right corner 
 
 ## FAQ
 
