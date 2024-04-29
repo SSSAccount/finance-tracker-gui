@@ -15,7 +15,7 @@ visit [](thislink)
 
 ## Demo
 
-(Please visit the rendered documentation to view the demo)
+https://github.com/SSSAccount/finance-tracker-gui/assets/115540526/fc744798-91bd-4d9f-aa00-3171b80253cd
 
 ## Requirements
 - Python >= 3.12.1
